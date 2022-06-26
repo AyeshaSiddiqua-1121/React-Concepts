@@ -16,7 +16,8 @@ import './App.css';
 // import InlineCSS from './components/InlineCSS';
 // import './appstyle.css'
 // import styles from './appstyle.module.css'
-import Form from './components/Form';
+// import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
 function App() {
   return (
     <div className="App">
@@ -43,7 +44,8 @@ function App() {
         {/* <h1 className={styles.success}></h1> */}
       {/* <InlineCSS/> */}
       {/* This module helps in creating forms  */}
-      <Form/>
+      {/* <Form/> */}
+      <LifeCycleA/>
     </div>
   );
 }
