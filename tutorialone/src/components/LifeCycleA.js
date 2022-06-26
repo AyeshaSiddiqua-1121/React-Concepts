@@ -17,7 +17,7 @@ componentDidMount(){
     render() {
         console.log("Render method called")
     return (
-      <div>LifeCycleA</div>
+      <div>LifeCycle COmponent Life Cycle </div>
     )
   }
 }
